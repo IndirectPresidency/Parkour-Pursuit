@@ -1,0 +1,26 @@
+{
+	"name": "parkour-pursuit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon server/index.js",
+		"watch": "tsc --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/IndirectPresidency/Parkour-Pursuit.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/IndirectPresidency/Parkour-Pursuit/issues"
+	},
+	"homepage": "https://github.com/IndirectPresidency/Parkour-Pursuit#readme",
+	"dependencies": {
+		"express": "^4.18.1",
+		"nodemon": "^2.0.16",
+		"phaser": "^3.55.2"
+	}
+}
